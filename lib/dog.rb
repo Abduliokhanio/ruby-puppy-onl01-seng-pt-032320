@@ -5,4 +5,8 @@ class Dog
     @name = name
   end
   
+  def all
+    @all
+  end
+  
 end
