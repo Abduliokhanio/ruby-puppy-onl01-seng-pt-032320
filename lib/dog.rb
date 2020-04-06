@@ -1,5 +1,7 @@
 # Add your code here
 class Dog
+
+  attr_accessor :name
   
   @@all = []
   
@@ -17,7 +19,8 @@ class Dog
   end 
   
   def self.print_all
-    self.all.name
+    puts self.all.name
   end
+
   
 end
